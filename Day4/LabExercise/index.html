@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+
+      .loginContainer {
+        width: 50%;
+        height: 70%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 7px;
+        margin: 200px;
+        
+      }
+      #login-form {
+        align-self: center;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    
+      }
+      #login-form-submit {
+        margin: 10px;
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        background-color: #0ca8eb;
+        cursor: pointer;
+        outline: none;
+    }
+      
+        .form-field {
+        border: 1px solid;
+        border-radius: 3px;
+        padding: 0px 0px 5px 5px;
+        margin-top: 10px;
+        }
+
+  </style>
+
+  <script defer src="loginpage.js"></script>
+</head>
+
+<body>
+  
+ <div class="loginContainer">
+    <h3>Login</h3>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username" class="form-field" placeholder="Username">
+      <input type="password" name="password" id="password" class="form-field" placeholder="Password">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+ </div>
+   
+ 
+</body>
+
+</html>

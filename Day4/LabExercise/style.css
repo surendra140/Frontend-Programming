@@ -1,0 +1,117 @@
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+#logo {
+  height: 90px;
+  width: 120px;
+  margin-top: 10px;
+}
+#user {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.heading {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15px;
+  padding: 20px;
+}
+h4 {
+  margin: 15px;
+}
+.searchbar {
+  display: flex;
+  padding: 30px;
+  margin-left: 50%;
+  height: 40px;
+  width: 60px;
+}
+h2 {
+  text-align: center;
+}
+.cards {
+  width: 180px;
+  height: 240px;
+  border: 1px solid crimson;
+}
+.cards img {
+  width: 150px;
+  height: 150px;
+  padding: 10px 15px;
+}
+h5 {
+  padding-left: 25px;
+  margin-top: 10px;
+}
+.carousel {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  height: 70%;
+}
+h4 {
+    margin-top: 40px;
+  text-align: center;
+}
+.sectionCards img {
+  padding: 20px;
+  height: 180px;
+  width: 250px;
+}
+
+.sectionCards {
+  display: flex;
+  margin-top: 30px;
+  width: fit-content;
+  height: 40%;
+  border: 1px solid crimson;
+  margin: 10px;
+}
+
+.section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: "40%";
+   
+}
+.sectionelements{
+    width: fit-content;
+    height: fit-content;
+}
+
+.login {
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: 100%;
+}
+.Register {
+    width: fit-content;
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.section3 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-left:40% ;   
+}

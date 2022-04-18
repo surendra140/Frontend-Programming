@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+}
+
+.intro {
+ /* selector = type selector / tag selector */
+color: blueviolet;
+text-decoration: underline;
+}
