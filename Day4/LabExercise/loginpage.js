@@ -14,3 +14,12 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.style.opacity = 1;
     }
 })
+
+switch(num){
+    case 1:
+        alert("January");
+        break;
+    case 2:
+        alert("February");
+        break;
+}
